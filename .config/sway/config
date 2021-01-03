@@ -137,7 +137,7 @@ set $gnome-schema org.gnome.desktop.interface
 
 exec_always {
     gsettings set $gnome-schema gtk-theme Arc-Darker
-    gsettings set $gnome-schema icon-theme Arc
+    gsettings set $gnome-schema icon-theme Papirus-Dark
     gsettings set $gnome-schema cursor-theme Adwaita
     gsettings set $gnome-schema font-name JetBrains Mono Bold 10
     gsettings set $gnome-schema gtk-application-prefer-dark-theme true
